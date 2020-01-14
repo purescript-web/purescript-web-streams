@@ -1,7 +1,7 @@
 module Web.Streams.ReadableStreamController where
 
 import Effect (Effect)
-import Error (Error)
+import Effect.Exception (Error)
 import Prelude (Unit)
 
 foreign import data ReadableStreamController :: Type -> Type

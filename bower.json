@@ -20,6 +20,7 @@
     "purescript-nullable": "^4.0.0",
     "purescript-arraybuffer-types": "^2.0.0",
     "purescript-tuples": "^5.0.0",
-    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#^1.0.0"
+    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#^1.0.0",
+    "purescript-exceptions": "^4.0.0"
   }
 }
