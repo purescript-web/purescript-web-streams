@@ -1,3 +1,5 @@
+"use strict";
+
 exports._new = function(source, strategy) {
   return new ReadableStream(source, strategy);
 };

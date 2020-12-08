@@ -1,3 +1,5 @@
+"use strict";
+
 exports.enqueue = function(chunk) {
   return function(controller) {
     return function() {
