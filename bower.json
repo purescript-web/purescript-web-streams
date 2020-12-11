@@ -20,7 +20,7 @@
     "purescript-nullable": "main",
     "purescript-arraybuffer-types": "main",
     "purescript-tuples": "master",
-    "purescript-web-promise": "master",
+    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#master",
     "purescript-exceptions": "master"
   }
 }
