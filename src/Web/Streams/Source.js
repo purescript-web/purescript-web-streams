@@ -1,6 +1,6 @@
 "use strict";
 
-exports._make = function(options) {
+export function _make(options) {
   var newOptions = {
     start: function(controller) {
       return options.start(controller)();
@@ -17,4 +17,4 @@ exports._make = function(options) {
     };
   }
   return newOptions;
-};
+}
