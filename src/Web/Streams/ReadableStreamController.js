@@ -1,29 +1,27 @@
-"use strict";
-
-exports.enqueue = function(chunk) {
+export function enqueue(chunk) {
   return function(controller) {
     return function() {
       return controller.enqueue(chunk);
     };
   };
-};
+}
 
-exports.close = function(controller) {
+export function close(controller) {
   return function() {
     return controller.close();
   };
-};
+}
 
-exports.error = function(error) {
+export function error(error) {
   return function(controller) {
     return function() {
       return controller.error(error);
     };
   };
-};
+}
 
-exports.desiredSize = function(controller) {
+export function desiredSize(controller) {
   return function() {
     return controller.desiredSize;
   };
-};
+}

@@ -1,19 +1,18 @@
-"use strict";
-
-exports.new = function(options) {
+const newImpl = function (options) {
   return function() {
     return new QueuingStrategy(options);
   };
 };
+export { newImpl as new };
 
-exports.byteLengthQueuingStrategy = function(options) {
+export function byteLengthQueuingStrategy(options) {
   return function() {
     return new ByteLengthQueuingStrategy(options);
   };
-};
+}
 
-exports.countQueuingStrategy = function(options) {
+export function countQueuingStrategy(options) {
   return function() {
     return new CountQueuingStrategy(options);
   };
-};
+}

@@ -1,28 +1,26 @@
-"use strict";
-
-exports._new = function(source, strategy) {
+export function _new(source, strategy) {
   return new ReadableStream(source, strategy);
-};
+}
 
-exports.cancel = function(stream) {
+export function cancel(stream) {
   return function() {
     return stream.cancel();
   };
-};
+}
 
-exports.locked = function(stream) {
+export function locked(stream) {
   return function() {
     return stream.locked;
   };
-};
+}
 
-exports.getReader = function(stream) {
+export function getReader(stream) {
   return function() {
     return stream.getReader();
   };
-};
+}
 
-exports._tee = function(tuple, stream) {
+export function _tee(tuple, stream) {
   var r = stream.tee();
   return tuple(r[0])(r[1]);
-};
+}
