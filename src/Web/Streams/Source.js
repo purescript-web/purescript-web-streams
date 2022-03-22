@@ -1,5 +1,3 @@
-"use strict";
-
 export function _make(options) {
   var newOptions = {
     start: function(controller) {

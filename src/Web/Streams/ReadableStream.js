@@ -1,5 +1,3 @@
-"use strict";
-
 export function _new(source, strategy) {
   return new ReadableStream(source, strategy);
 }

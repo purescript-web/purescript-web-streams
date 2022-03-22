@@ -1,5 +1,3 @@
-"use strict";
-
 export function new(options) {
   return function() {
     return new QueuingStrategy(options);

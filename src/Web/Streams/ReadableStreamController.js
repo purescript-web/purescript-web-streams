@@ -1,5 +1,3 @@
-"use strict";
-
 export function enqueue(chunk) {
   return function(controller) {
     return function() {
