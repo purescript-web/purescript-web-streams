@@ -15,12 +15,12 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-arraybuffer-types": "main",
-    "purescript-effect": "master",
-    "purescript-exceptions": "master",
-    "purescript-nullable": "main",
-    "purescript-prelude": "master",
-    "purescript-tuples": "master",
-    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#master"
+    "purescript-arraybuffer-types": "^3.0.2",
+    "purescript-effect": "^4.0.0",
+    "purescript-exceptions": "^6.0.0",
+    "purescript-nullable": "^6.0.0",
+    "purescript-prelude": "^6.0.0",
+    "purescript-tuples": "^7.0.0",
+    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#^3.0.0"
   }
 }
