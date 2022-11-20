@@ -18,9 +18,9 @@
     "purescript-arraybuffer-types": "^3.0.2",
     "purescript-effect": "^4.0.0",
     "purescript-exceptions": "^6.0.0",
+    "purescript-js-promise": "https://github.com/purescript-contrib/purescript-js-promise.git#^1.0.0",
     "purescript-nullable": "^6.0.0",
-    "purescript-prelude": "^6.0.0",
-    "purescript-tuples": "^7.0.0",
-    "purescript-web-promise": "https://github.com/purescript-web/purescript-web-promise.git#^3.0.0"
+    "purescript-prelude": "^6.0.1",
+    "purescript-tuples": "^7.0.0"
   }
 }
