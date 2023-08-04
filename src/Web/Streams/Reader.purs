@@ -3,7 +3,7 @@ module Web.Streams.Reader where
 import Data.Maybe (Maybe(..))
 import Effect (Effect)
 import Effect.Uncurried (EffectFn3, runEffectFn3)
-import Web.Promise (Promise)
+import Promise (Promise)
 
 foreign import data Reader :: Type -> Type
 

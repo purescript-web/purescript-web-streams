@@ -6,7 +6,7 @@ module Web.Streams.Source
 import Effect (Effect)
 import Prelude (Unit)
 import Prim.Row as Row
-import Web.Promise (Promise)
+import Promise (Promise)
 import Web.Streams.ReadableStreamController (ReadableStreamController)
 
 foreign import data Source :: Type -> Type
