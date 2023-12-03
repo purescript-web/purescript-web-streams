@@ -8,6 +8,7 @@ Breaking changes:
 - Migrated from `web-promise` to `js-promise`
 
 New features:
+ - Add WriteableStream support (#9)
 
 Bugfixes:
 
