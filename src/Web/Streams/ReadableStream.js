@@ -3,19 +3,19 @@ export function _new(source, strategy) {
 }
 
 export function cancel(stream) {
-  return function() {
+  return function () {
     return stream.cancel();
   };
 }
 
 export function locked(stream) {
-  return function() {
+  return function () {
     return stream.locked;
   };
 }
 
 export function getReader(stream) {
-  return function() {
+  return function () {
     return stream.getReader();
   };
 }
