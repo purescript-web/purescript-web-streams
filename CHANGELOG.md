@@ -5,13 +5,22 @@ Notable changes to this project are documented in this file. The format is based
 ## [Unreleased]
 
 Breaking changes:
-- Migrated from `web-promise` to `js-promise`
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+
+## [v4.0.1](https://github.com/purescript-web/purescript-web-streams/releases/tag/v4.0.1) - 2026-10-10
+
+Other improvements:
+- Migrated from Bower/Pulp to registry-backed Spago and updated PureScript, CI, and development tooling with Oxlint, Oxfmt, and purs-tidy (#11 by @thomashoneyman).
+
+## [v4.0.0](https://github.com/purescript-web/purescript-web-streams/releases/tag/v4.0.0) - 2023-08-04
+
+Breaking changes:
+- Migrated from `web-promise` to `js-promise` (#10 by @garyb)
 
 ## [v3.0.0](https://github.com/purescript-web/purescript-web-streams/releases/tag/v3.0.0) - 2022-04-27
 
